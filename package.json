@@ -1,0 +1,33 @@
+{
+  "name": "orbit-hosting",
+  "version": "2.0.0",
+  "description": "Orbit Hosting TypeScript Discord Bot",
+  "main": "./Compiled/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && npm run start",
+    "start": "cd Compiled && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D5GY/Orbit-Hosting.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Jinx.#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D5GY/Orbit-Hosting/issues"
+  },
+  "homepage": "https://github.com/D5GY/Orbit-Hosting#readme",
+  "dependencies": {
+    "discord.js": "^14.0.0-dev.1657757514-fe34f48"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  }
+}
