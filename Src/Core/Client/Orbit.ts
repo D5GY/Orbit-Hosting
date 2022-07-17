@@ -2,6 +2,7 @@ import { Client, Collection } from 'discord.js';
 import { clientOptions, config } from '../Config/config';
 import { config as configType } from '../Utils/types';
 import { promises as fs } from 'fs';
+import { Responses } from '../Utils/constants';
 
 export class Orbit extends Client {
   public config: configType;
@@ -9,11 +10,12 @@ export class Orbit extends Client {
   public interactionCount!: number;
   public eventCount!: number;
   public interactionData: Array<any>;
+  public responses: any;
   constructor() {
     super(clientOptions);
     this.config = config;
+    this.responses = Responses;
     this.interactionData = [];
-
     this.interactionCount = 0;
     this.eventCount = 0;
   }
