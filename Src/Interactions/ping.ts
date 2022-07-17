@@ -9,7 +9,7 @@ module.exports = {
       ephemeral: true
     });
     await interaction.editReply({
-      content: `My ping is: ${client.ws.ping}`
+      embeds: [client.responses.WS_PING(client.ws.ping)]
     })
   }
 }
