@@ -10,6 +10,6 @@ module.exports = {
     });
     await interaction.editReply({
       embeds: [client.responses.WS_PING(client.ws.ping)]
-    })
+    });
   }
 }
