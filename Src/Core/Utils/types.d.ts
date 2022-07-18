@@ -6,5 +6,15 @@ export interface config {
   ROLES: {
     UNVERIFIED: Snowflake;
     VERIFIED: Snowflake;
+  },
+  WEBHOOKS: {
+    JOIN: {
+      ID: Snowflake;
+      TOKEN: string;
+    },
+    LEAVE: {
+      ID: Snowflake;
+      TOKEN: string;
+    }
   }
 };

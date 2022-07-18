@@ -26,5 +26,15 @@ export const config: ClientConfig = {
   ROLES: {
     UNVERIFIED: '',
     VERIFIED: ''
+  },
+  WEBHOOKS: {
+    JOIN: {
+      ID: '',
+      TOKEN: ''
+    },
+    LEAVE: {
+      ID: '',
+      TOKEN: ''
+    }
   }
 }
