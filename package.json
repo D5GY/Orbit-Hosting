@@ -1,6 +1,6 @@
 {
   "name": "orbit-hosting",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Orbit Hosting TypeScript Discord Bot",
   "main": "./Compiled/index.js",
   "scripts": {
