@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/D5GY/Orbit-Hosting#readme",
   "dependencies": {
-    "discord.js": "^14.0.0-dev.1657757514-fe34f48",
+    "discord.js": "^14.1.0-dev.1658103004-dda2895",
     "moment": "^2.29.4"
   },
   "devDependencies": {
